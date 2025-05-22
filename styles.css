@@ -2,10 +2,10 @@
 :root {
      --color-primary: #752c2c; 
   --color-secondary: #1d1816; 
-  --color-white: #bbb3b1;   
+  --color-white: #d4c8c5;   
   --color-light: #F5E8D7;   
   --color-dark: #4F382E;    
-  --color-gray: #8B735C;    
+  --color-gray: #131211;    
   --font-primary: 'Poppins', sans-serif;
   --transition: all 0.3s ease;
 }
@@ -358,20 +358,20 @@ footer {
 .project-tag {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Un poco más de espacio */
-    align-items: center; /* Alinea verticalmente las etiquetas */
+    gap: 10px; 
+    align-items: center; 
 }
 
 .tag {
     display: inline-block; /* Asegura que el padding y margen funcionen bien */
-    background-color: #fc2727; /* Un color primario azul */
+    background-color: #fc2727; 
     color: white; /* Texto blanco para contraste */
     padding: 8px 16px;
-    border-radius: 20px; /* Muy redondeado para un efecto de píldora */
+    border-radius: 20px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 0.85em;
-    font-weight: bold; /* Texto en negrita */
-    text-transform: uppercase; /* Texto en mayúsculas */
+    font-weight: bold; 
+    text-transform: uppercase;
     letter-spacing: 0.5px; /* Espaciado entre letras */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
